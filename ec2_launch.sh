@@ -1,7 +1,7 @@
 aws ec2 run-instances \
     --image-id "ami-03074cc1b166e8691" \
     --instance-type "t2.micro" \
-    --key-name "test-schluesselpaar" \
+    --key-name "schluesselpaar" \
     --user-data "IyEvYmluL2Jhc2gKIyBVcGRhdGUgcGFja2FnZSBsaXN0IGFuZCB1cGdyYWRlIGluc3RhbGxlZCBwYWNrYWdlcwp5dW0gdXBkYXRlIC15IAo=" \
     --network-interfaces '{"AssociatePublicIpAddress":true,"DeviceIndex":0,"Groups":["sg-03aa1a77ed6c0835e","sg-059466aabfd4610c3"]}' \
     --credit-specification '{"CpuCredits":"standard"}' \
