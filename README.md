@@ -3,7 +3,7 @@ Dieses Repo enthält den Deploymentprozess für das Jobscraper-Hauptprojekt (sie
 
 ### Aktuell eingebundene AWS-Services
 1. EC2
-   - Test
 
-### Geplante AWS-Services
-
+## Servicebeschreibungen
+**EC2**<br>
+ec2_launch.sh verwendet das AWS CLI um 2 Instanzen zu starten. Die Sicherheitsgruppen erlauben Traffic über Http/Https und SSH.
